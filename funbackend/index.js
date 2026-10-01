@@ -19,9 +19,8 @@ app.get('/youtube',(req,res)=>{
     res.send('<h2>chai aur code</h2>')
 })
 
-
-app.get('/umang',(req,res)=>{
-    res.send("hello my name is umang");
+app.get('/hello',(req,res)=>{
+    res.send("<h3>hello guys how are you</h3>")
 })
 
 app.listen(process.env.port,()=>{
